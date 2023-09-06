@@ -720,12 +720,12 @@ MonoBehaviour:
   NameText: {fileID: 91486518412663043, guid: d44ddf086eea8144ea9dc5fe1169e0f0, type: 3}
   inputName: {fileID: 1997831033}
   btn: {fileID: 400535900}
-  ch_1: {fileID: 1343730050}
-  ch_2: {fileID: 1431590292}
-  select: {fileID: 2011174954}
+  ch_1: {fileID: 1343730052}
+  ch_2: {fileID: 1431590294}
+  select: {fileID: 2011174958}
   Main_1: {fileID: 7657339797760230711, guid: 40ab58ac2e948244597f653503259f09, type: 3}
   Main_2: {fileID: 8719142044226593308, guid: 105262ae1d9a35c458733655d5e38043, type: 3}
-  Main: {fileID: 0}
+  Main: {fileID: 205908987138799819, guid: 1602b60af24aa8d47829c66183865cba, type: 3}
 --- !u!4 &721242763
 Transform:
   m_ObjectHideFlags: 0
@@ -1912,7 +1912,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 901639f1dddd7b04aa3c943786d274d5, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
