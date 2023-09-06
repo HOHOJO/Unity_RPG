@@ -196,7 +196,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bbcb4638c11add94a94c6aff5d81ce42, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -204,7 +204,7 @@ SpriteRenderer:
   m_Size: {x: 0.875, y: 1.625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &202778896
@@ -368,7 +368,7 @@ GameObject:
   - component: {fileID: 484420605}
   - component: {fileID: 484420606}
   m_Layer: 0
-  m_Name: MainSprites
+  m_Name: MainSprites_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22347,7 +22347,6 @@ GameObject:
   - component: {fileID: 1389182685}
   - component: {fileID: 1389182684}
   - component: {fileID: 1389182683}
-  - component: {fileID: 1389182687}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -22528,27 +22527,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a3037d0247ba1c498ff12582b664391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &1389182687
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1389182678}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4d686d38f055e004d98a02a2340d5d9a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1397468567
 GameObject:
   m_ObjectHideFlags: 0
@@ -22560,6 +22538,7 @@ GameObject:
   - component: {fileID: 1397468568}
   - component: {fileID: 1397468570}
   - component: {fileID: 1397468569}
+  - component: {fileID: 1397468571}
   m_Layer: 0
   m_Name: PlayerName
   m_TagString: Untagged
@@ -22720,6 +22699,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1397468571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397468567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2008af9a0a448c47b6c2c7217301d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputName: {fileID: 91486518412663043, guid: d44ddf086eea8144ea9dc5fe1169e0f0, type: 3}
+  Name: {fileID: 1397468569}
 --- !u!1 &1616500875
 GameObject:
   m_ObjectHideFlags: 0
@@ -22749,6 +22742,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2295b2228dc26fc43b7705ccc020bbf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NameText: {fileID: 0}
+  inputName: {fileID: 0}
+  btn: {fileID: 0}
 --- !u!4 &1616500877
 Transform:
   m_ObjectHideFlags: 0

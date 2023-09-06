@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public Text NameText;
+    public InputField inputName;
+    public Button btn;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +20,10 @@ public class GameManager : MonoBehaviour
     {
         
     }
+
+    public void NameAdd()
+    {
+        NameText.text = inputName.text;
+    }
+
 }
