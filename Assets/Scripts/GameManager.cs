@@ -9,12 +9,11 @@ public class GameManager : MonoBehaviour
     public Text NameText;
     public InputField inputName;
     public Button btn;
-    public Image ch_1;
-    public Image ch_2;
-    public Image select;
-    public Sprite Main_1;
-    public Sprite Main_2;
-    public Sprite Main;
+    public GameObject ch_1;
+    public GameObject ch_2;
+    public GameObject select;
+    public GameObject Main_1;
+    public GameObject Main_2;
 
     // Start is called before the first frame update
     void Start()
@@ -37,13 +36,19 @@ public class GameManager : MonoBehaviour
     {
         if(i == 1)
         {
-            select = ch_1;
-            Main = Main_1;
+            select.SetActive(false);
+            ch_1.SetActive(true);
+            ch_2.SetActive(false);
+            Main_1.SetActive(true);
+            Main_2.SetActive(false);
         }
         else
         {
-            select = ch_2;
-            Main = Main_2;
+            select.SetActive(false);
+            ch_1.SetActive(false);
+            ch_2.SetActive(true);
+            Main_2.SetActive(true);
+            Main_1.SetActive(false);
         }
 
     }
